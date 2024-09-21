@@ -13,23 +13,36 @@ This repository contains the code for **Cassioppée Deco**, a beautifully design
 - **Contact Form**: Integrated form for customer inquiries.
 - **Inspiration Section**: Design ideas with interactive image sliders.
 
-## Tech Stack
+## Technologies Used
 
 - **HTML5**: Structure of the landing page.
 - **CSS3**: Styling and responsive design.
 - **JavaScript**: Interactive elements and sliders.
+- **ReactJs**: For creating reusable components and managing application state
 - **Google Maps API**: For displaying the store’s location.
 - **FontAwesome**: For icons and imagery.
 
 ## Screenshots
 
-### Landing Page
+### Home Page
 ![Cassioppée Deco Landing Page](screenshots/screenshot.png)
+
+### Categories Page
+![Cassioppée Deco Categories Page](screenshots/screenshot.png)
 
 ### Product Section
 ![Cassioppée Deco Product Section](screenshots/screenshot-product.png)
 
+### Inspiration Section
+![Cassioppée Deco Product Section](screenshots/screenshot-product.png)
+
 ### Contact Form
+![Cassioppée Deco Contact Form](screenshots/screenshot-contact.png)
+
+### Footer 
+![Cassioppée Deco Contact Form](screenshots/screenshot-contact.png)
+
+### Mobile Version 
 ![Cassioppée Deco Contact Form](screenshots/screenshot-contact.png)
 
 
@@ -49,5 +62,14 @@ This repository contains the code for **Cassioppée Deco**, a beautifully design
 
 ## Demo
 Check out the live version of this landing page ![here](here).
+
+## Contact
+
+If you have any questions or feedback, feel free to reach out via:
+
+- **Email**: mounsif.chelgham@univ-constantine2.dz
+- **Phone**: +213 562189015
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/your-linkedin-profile/)
+
 
 
