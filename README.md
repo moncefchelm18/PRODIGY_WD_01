@@ -1,75 +1,75 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Cassioppée Deco - Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the code for **Cassioppée Deco**, a beautifully designed landing page for a furniture and decor store. The website features a clean and modern aesthetic, showcasing various furniture categories, products, and an inspiration section. This project was developed doing TASK01 as a part of an internship at **Prodigy Infortech**.
 
-## Available Scripts
+![Cassioppée Deco Landing Page Screenshot](screenshots/screenshot.png)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Responsive Design**: Fully responsive and optimized for desktop and mobile devices.
+- **Category Pages**: Browse different categories like chairs, tables, and decor items.
+- **Product Showcase**: Display detailed information about products.
+- **Location Integration**: Map embedded for store location with easy navigation.
+- **Contact Form**: Integrated form for customer inquiries.
+- **Inspiration Section**: Design ideas with interactive image sliders.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **HTML5**: Structure of the landing page.
+- **CSS3**: Styling and responsive design.
+- **JavaScript**: Interactive elements and sliders.
+- **ReactJs**: For creating reusable components and managing application state
+- **Google Maps API**: For displaying the store’s location.
+- **FontAwesome**: For icons and imagery.
 
-### `npm test`
+## Screenshots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Home Page
+![Cassioppée Deco Landing Page](screenshots/screenshot.png)
 
-### `npm run build`
+### Categories Page
+![Cassioppée Deco Categories Page](screenshots/screenshot.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Product Section
+![Cassioppée Deco Product Section](screenshots/screenshot-product.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Inspiration Section
+![Cassioppée Deco Product Section](screenshots/screenshot-product.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Contact Form
+![Cassioppée Deco Contact Form](screenshots/screenshot-contact.png)
 
-### `npm run eject`
+### Footer 
+![Cassioppée Deco Contact Form](screenshots/screenshot-contact.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Mobile Version 
+![Cassioppée Deco Contact Form](screenshots/screenshot-contact.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone this repository:
 
-## Learn More
+   ```bash
+   git clone https://github.com/moncefchelm18/PRODIGY_WD_01
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Navigate to the project directory:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   cd landing-page-cassiopee-deco
 
-### Code Splitting
+3. Open the index.html file in your browser or set up a local server (e.g., using Live Server on VSCode).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Demo
+Check out the live version of this landing page ![here](here).
 
-### Analyzing the Bundle Size
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If you have any questions or feedback, feel free to reach out via:
 
-### Making a Progressive Web App
+- **Email**: mounsif.chelgham@univ-constantine2.dz
+- **Phone**: +213 562189015
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/your-linkedin-profile/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# PRODIGY_WD_01
-Prodigy InfoTech Task 01 Landing Page : Cassioppée Deco - A React landing page for an online store offering elegant furniture and decor.
->>>>>>> origin/main
