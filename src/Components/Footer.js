@@ -6,37 +6,37 @@ const Footer = () => {
       <footer className="footer">
         <div className="footer-items">
           <div className="footer-box">
-            <h1 className="footer-box-header">À Propos de Nous</h1>
+            <h1 className="footer-box-header">About Us</h1>
             <p className="footer-box-description">
-              Nous sommes une destination de choix pour les amateurs de mobilier
-              et de décoration, où l'élégance et le style se rencontrent.
+              We are a top destination for furniture and decoration lovers,
+              where elegance and style meet.
             </p>
           </div>
           <div className="footer-box">
-            <h1 className="footer-box-header">Nos services</h1>
+            <h1 className="footer-box-header">Our Services</h1>
             <ul className="footer-box-descriptions footer-list">
-              <li>Catégories</li>
-              <li>Produits</li>
+              <li>Categories</li>
+              <li>Products</li>
               <li>Inspiration</li>
-              <li>Localisation</li>
+              <li>Location</li>
               <li>Contact</li>
             </ul>
           </div>
           <div className="footer-box">
-            <h1 className="footer-box-header">Nos services</h1>
+            <h1 className="footer-box-header">Our Services</h1>
             <ul className="footer-box-descriptions footer-list">
-              <li>Catégories</li>
-              <li>Produits</li>
+              <li>Categories</li>
+              <li>Products</li>
               <li>Inspiration</li>
-              <li>Localisation</li>
+              <li>Location</li>
               <li>Contact</li>
             </ul>
           </div>
           <div className="footer-box">
-            <h1 className="footer-box-header">Abonnez Vous</h1>
+            <h1 className="footer-box-header">Subscribe</h1>
             <div className="footer-logos">
               <a
-                href="https://www.facebook.com/votre-page-facebook"
+                href="https://www.facebook.com/your-facebook-page"
                 title="Facebook"
                 aria-label="Facebook"
                 target="_blank"
@@ -45,7 +45,7 @@ const Footer = () => {
                 <i className="fab fa-facebook-f"></i>
               </a>
               <a
-                href="https://www.instagram.com/votre-compte-instagram"
+                href="https://www.instagram.com/your-instagram-account"
                 title="Instagram"
                 aria-label="Instagram"
                 target="_blank"
@@ -54,7 +54,7 @@ const Footer = () => {
                 <i className="fab fa-instagram"></i>
               </a>
               <a
-                href="https://www.tiktok.com/votre-compte-tiktok"
+                href="https://www.tiktok.com/your-tiktok-account"
                 title="TikTok"
                 aria-label="TikTok"
                 target="_blank"
@@ -63,7 +63,7 @@ const Footer = () => {
                 <i className="fab fa-tiktok"></i>
               </a>
               <a
-                href="https://www.pinterest.com/votre-compte-pinterest"
+                href="https://www.pinterest.com/your-pinterest-account"
                 title="Pinterest"
                 aria-label="Pinterest"
                 target="_blank"
@@ -76,11 +76,11 @@ const Footer = () => {
         </div>
         <div className="footer-copyright">
           <div className="footer-header">
-            Casioppée <span>Deco</span>
+            Cassiopée <span>Deco</span>
           </div>
           <p>
-            © 2023 Casioppée Doré. Tous droits réservés. | Politique de
-            Confidentialité | Conditions d'utilisation
+            © 2023 Cassiopée Doré. All rights reserved. | Privacy Policy | Terms
+            of Use
           </p>
         </div>
       </footer>

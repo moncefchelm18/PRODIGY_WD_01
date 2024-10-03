@@ -5,15 +5,17 @@ const Home = () => {
     <>
       <section className="home-section" id="home">
         <div className="home-box">
-          <div className="home-header">Bienvenue chez</div>
-          <div className="home-title">Casioppée Deco Online Store</div>
-          <div className="home-description">
-            Découvrez un monde d'élégance et de style dans le mobilier et la
-            décoration. Explorez notre collection exquise de chaises, de tables
-            et d'objets décoratifs. Transformez vos espaces de vie avec des
-            pièces intemporelles qui reflètent votre goût unique.
+          <div className="home-header">Welcome to</div>
+          <div className="home-title">
+            Cassiopée Deco <br /> Online Store
           </div>
-          <div className="btn home-insciprion-btn">Inscrivez-vous</div>
+          <div className="home-description">
+            Discover a world of elegance and style in furniture and decoration.
+            Explore our exquisite collection of chairs, tables, and decorative
+            items. Transform your living spaces with timeless pieces that
+            reflect your unique taste.
+          </div>
+          <div className="btn home-inscription-btn">Sign Up</div>
         </div>
       </section>
     </>

@@ -30,13 +30,6 @@ const InspirationSlideshow = () => {
             clickable: true,
           }}
           navigation={{ clickable: true }}
-          // loop={true}
-          // pagination={{ el: "swiper-pagination", clickable: true }}
-          // navigation={{
-          //   nextEl: ".slider-controler__next",
-          //   prevEl: ".slider-controler__prev",
-          //   clickable: true,
-          // }}
           className="mySwiper"
         >
           <SwiperSlide>
@@ -47,25 +40,16 @@ const InspirationSlideshow = () => {
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="./imgs/Categories/categorie-table.jpg"
+              src="./imgs/Categories/categorie-decoration.jpg"
               alt="inspiration 2"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="./imgs/Categories/categorie-table.jpg"
+              src="./imgs/Categories/categorie-chair.jpg"
               alt="inspiration 3"
             />
           </SwiperSlide>
-          {/* <div className="slider-controler">
-            <div className="slider-controler__prev">
-              <i className="fas fa-chevron-left"></i>
-            </div>
-            <div className="slider-controler__next">
-              <i className="fas fa-chevron-right"></i>
-            </div>
-            <div className="swiper-pagination"></div>
-          </div> */}
         </Swiper>
       </div>
     </>

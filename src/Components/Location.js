@@ -4,9 +4,7 @@ const Location = () => {
   return (
     <>
       <section className="location-section" id="location">
-        <div className="heading-teritary location-header">
-          Notre Localisation
-        </div>
+        <div className="heading-teritary location-header">Our Localisation</div>
         <div className="location-box">
           <p>Jijel, jijel</p>
           <div className="iframe">

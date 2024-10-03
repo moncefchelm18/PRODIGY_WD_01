@@ -6,35 +6,34 @@ const Contact = () => {
       <section className="contact-section" id="contact">
         <div className="contact-container">
           <div className="contact-content">
-            <h2 className="heading-teritary contact-heading">Contactez-nous</h2>
+            <h2 className="heading-teritary contact-heading">Contact Us</h2>
 
             <p className="contact-description">
-              Vous avez des questions ou des préoccupations? N'hésitez pas à
-              nous contacter.
+              Do you have any questions or concerns? Feel free to contact us.
             </p>
 
             <form action="#" className="contact-form">
               <div className="form-group">
                 <div className="form-group-mini">
                   <label htmlFor="name" className="form-label">
-                    Nom
+                    Name
                   </label>
                   <input
                     type="text"
                     id="name"
                     className="form-input"
-                    placeholder="Nom*"
+                    placeholder="Name*"
                   />
                 </div>
                 <div className="form-group-mini">
                   <label htmlFor="lastname" className="form-label">
-                    Prénom
+                    Last Name
                   </label>
                   <input
                     type="text"
                     id="lastname"
                     className="form-input"
-                    placeholder="Prénom*"
+                    placeholder="Last Name*"
                   />
                 </div>
               </div>
@@ -53,13 +52,13 @@ const Contact = () => {
                 </div>
                 <div className="form-group-mini">
                   <label htmlFor="tel" className="form-label">
-                    Téléphone
+                    Phone
                   </label>
                   <input
                     type="tel"
                     id="phone"
                     className="form-input"
-                    placeholder="Numéro de téléphone*"
+                    placeholder="Phone Number*"
                   />
                 </div>
               </div>
@@ -74,12 +73,12 @@ const Contact = () => {
                   cols="30"
                   rows="10"
                   className="form-input"
-                  placeholder="Entrez votre message"
+                  placeholder="Enter your message"
                 ></textarea>
               </div>
 
               <button type="submit" className="btn contact-btn">
-                Envoyer
+                Send
               </button>
             </form>
           </div>
@@ -89,18 +88,17 @@ const Contact = () => {
           <div className="contact-info">
             <div className="contact-info-item">
               <i className="fas fa-phone"></i>
-              <div className="contact-info-text">+213 555 555 555</div>
+              <div className="contact-info-text">+213 557 206 124</div>
             </div>
 
             <div className="contact-info-item">
               <i className="fas fa-envelope"></i>
               <div className="contact-info-text">
-                <a href="mailto:info@example.com">info@example.com</a>
+                <a href="mailto:info@example.com">cassiopee@example.com</a>
               </div>
             </div>
 
             <div className="contact-info-item">
-              {/* create me now for facebook */}
               <i className="fab fa-facebook"></i>
               <div className="contact-info-text">
                 <a
@@ -108,12 +106,11 @@ const Contact = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Casioppé Deco
+                  Cassiopée Deco
                 </a>
               </div>
             </div>
             <div className="contact-info-item">
-              {/* create me now for instagram */}
               <i className="fab fa-instagram"></i>
               <div className="contact-info-text">
                 <a
@@ -121,7 +118,7 @@ const Contact = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Casioppé Deco
+                  Cassiopée Deco
                 </a>
               </div>
             </div>

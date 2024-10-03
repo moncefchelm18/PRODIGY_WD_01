@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { BiMenu, BiX } from "react-icons/bi";
 
 const Header = () => {
@@ -7,6 +6,8 @@ const Header = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [showCategories, setShowCategories] = useState(false);
   const [showProducts, setShowProducts] = useState(false);
+  const [activeArrow, setActiveArrow] = useState(null);
+  const [currentSection, setCurrentSection] = useState("home");
 
   useEffect(() => {
     const handleResize = () => {
@@ -16,7 +17,7 @@ const Header = () => {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, [windowWidth]);
+  }, []);
 
   useEffect(() => {
     const sections = document.querySelectorAll("section");
@@ -31,9 +32,7 @@ const Header = () => {
 
         if (window.pageYOffset >= sectionTop - sectionHeight / 3) {
           currentSectionId = section.getAttribute("id");
-          // console.log("current section id", currentSectionId);
         }
-        // console.log("current section id 2", currentSectionId);
       });
 
       navLinks.forEach((link) => {
@@ -41,17 +40,16 @@ const Header = () => {
 
         if (link.getAttribute("href") === `#${currentSectionId}`) {
           link.classList.add("active");
-        }
-      });
+          setCurrentSection(currentSectionId);
 
-      // when click on a link remove the active class from all links
-      navLinks.forEach((link) => {
-        link.addEventListener("click", () => {
-          navLinks.forEach((link) => {
-            link.classList.remove("active");
-          });
-          link.classList.add("active");
-        });
+          if (currentSectionId === "categories") {
+            setActiveArrow("categories");
+          } else if (currentSectionId === "products") {
+            setActiveArrow("products");
+          } else {
+            setActiveArrow(null);
+          }
+        }
       });
     };
 
@@ -69,13 +67,40 @@ const Header = () => {
     body.classList.toggle("active");
     setMenuIcon(!menuIcon);
   };
+
   const showCategoriesItems = () => {
+    console.log(currentSection);
+    if (currentSection === "categories") {
+      document.querySelector('[href="#categories"]').classList.add("active");
+      setShowCategories(!showCategories);
+      setShowProducts(false);
+      return;
+    }
+
     setShowCategories(!showCategories);
     setShowProducts(false);
+
+    setActiveArrow(showCategories ? null : "categories");
+    document.querySelectorAll(".nav-item").forEach((item) => {
+      item.classList.remove("active");
+    });
+    document.querySelector('[href="#categories"]').classList.add("active");
   };
   const showProductsItems = () => {
+    if (currentSection === "products") {
+      document.querySelector('[href="#products"]').classList.add("active");
+      setShowProducts(!showProducts);
+      setShowCategories(false);
+      return;
+    }
     setShowProducts(!showProducts);
     setShowCategories(false);
+
+    setActiveArrow(showProducts ? null : "products");
+    document.querySelectorAll(".nav-item").forEach((item) => {
+      item.classList.remove("active");
+    });
+    document.querySelector('[href="#products"]').classList.add("active");
   };
 
   return (
@@ -87,16 +112,26 @@ const Header = () => {
         <nav className="nav">
           <div>
             <a href="#home" className="nav-item active">
-              Accueil
+              Home
             </a>
           </div>
 
           {windowWidth > 768 ? (
             <>
-              <div className=" dropdown active">
-                <a href="#categories" className="dropdown-toggle nav-item ">
-                  Catégories
-                  <span class="arrow ">►</span>
+              <div className="dropdown ">
+                <a
+                  href="#categories"
+                  className="dropdown-toggle nav-item"
+                  onClick={showCategoriesItems}
+                >
+                  Categories
+                  <span
+                    className={`arrow ${
+                      activeArrow === "categories" ? "arrow-active" : ""
+                    }`}
+                  >
+                    ►
+                  </span>
                 </a>
                 <div className="dropdown-menu">
                   <a href="#category1">Category 1</a>
@@ -105,10 +140,20 @@ const Header = () => {
                 </div>
               </div>
 
-              <div className="dropdown active">
-                <a href="#products" className="dropdown-toggle nav-item ">
-                  Produits
-                  <span class="arrow">►</span>
+              <div className="dropdown ">
+                <a
+                  href="#products"
+                  className="dropdown-toggle nav-item"
+                  onClick={showProductsItems}
+                >
+                  Products
+                  <span
+                    className={`arrow ${
+                      activeArrow === "products" ? "arrow-active" : ""
+                    }`}
+                  >
+                    ►
+                  </span>
                 </a>
                 <div className="dropdown-menu">
                   <a href="#product1">Product 1</a>
@@ -117,78 +162,85 @@ const Header = () => {
                 </div>
               </div>
             </>
-          ) : (
-            <></>
-          )}
+          ) : null}
 
           {windowWidth <= 768 ? (
             <>
               <div>
                 <a
                   href="#categories"
-                  className="nav-item"
+                  className={`nav-item ${
+                    activeArrow === "categories" ? "active" : ""
+                  }`}
                   onClick={showCategoriesItems}
                 >
                   Categories
+                  <span
+                    className={`arrow ${
+                      activeArrow === "categories" ? "arrow-active" : ""
+                    }`}
+                  >
+                    ►
+                  </span>
                 </a>
               </div>
               {showCategories ? (
                 <ul>
                   <li>
-                    <a href="#categories">Category 1</a>{" "}
+                    <a href="#categories">Category 1</a>
                   </li>
                   <li>
-                    <a href="#categories">Category 2</a>{" "}
+                    <a href="#categories">Category 2</a>
                   </li>
                   <li>
-                    <a href="#categories">Category 3</a>{" "}
+                    <a href="#categories">Category 3</a>
                   </li>
                 </ul>
-              ) : (
-                <></>
-              )}
+              ) : null}
 
-              <ul></ul>
               <div>
                 <a
                   href="#products"
-                  className="nav-item"
+                  className={`nav-item ${
+                    activeArrow === "products" ? "active" : ""
+                  }`}
                   onClick={showProductsItems}
                 >
                   Products
+                  <span
+                    className={`arrow ${
+                      activeArrow === "products" ? "arrow-active" : ""
+                    }`}
+                  >
+                    ►
+                  </span>
                 </a>
               </div>
 
               {showProducts ? (
-                <>
-                  {" "}
-                  <ul>
-                    <li>
-                      <a href="#products">Products 1</a>{" "}
-                    </li>
-                    <li>
-                      <a href="#products">Products 1</a>{" "}
-                    </li>
-                    <li>
-                      <a href="#products">Products 1</a>{" "}
-                    </li>
-                  </ul>
-                </>
-              ) : (
-                <></>
-              )}
+                <ul>
+                  <li>
+                    <a href="#products">Product 1</a>
+                  </li>
+                  <li>
+                    <a href="#products">Product 2</a>
+                  </li>
+                  <li>
+                    <a href="#products">Product 3</a>
+                  </li>
+                </ul>
+              ) : null}
             </>
-          ) : (
-            <></>
-          )}
-          <div className="">
+          ) : null}
+
+          <div>
             <a href="#inspiration" className="nav-item">
               Inspiration
             </a>
           </div>
           <div>
             <a href="#location" className="nav-item">
-              Localisation
+              Location
             </a>
           </div>
           <div>
@@ -217,6 +269,7 @@ const Header = () => {
             />
           </svg>
         </div>
+
         <div className="nav-menu-icon" onClick={showMenu}>
           {!menuIcon ? (
             <img

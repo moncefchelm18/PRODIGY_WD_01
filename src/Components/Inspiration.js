@@ -1,6 +1,5 @@
 import React from "react";
-import InspirationSlideshow from "./InspirationSlideshow"; // Assuming this handles the right-side slideshow.
-
+import InspirationSlideshow from "./InspirationSlideshow"; 
 const Inspiration = () => {
   return (
     <section className="inspiration-section" id="inspiration">

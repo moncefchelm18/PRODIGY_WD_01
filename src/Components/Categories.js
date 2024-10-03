@@ -4,28 +4,28 @@ const Categories = () => {
   return (
     <>
       <section className="categories-section" id="categories">
-        <div className="heading-teritary">Nos catégories</div>
+        <div className="heading-teritary">Our Categories</div>
         <div className="categories-description">
-          Parcourez notre gamme de catégories de mobilier
+          Explore our range of furniture categories
         </div>
         <div className="categories-box">
           <div className="categorie-item">
             <div className="categorie-item-img">
               <img
                 src="./imgs/Categories/categorie-chair.jpg"
-                alt="categorie 1"
+                alt="category 1"
               />
-              <div className="info">50 item</div>
+              <div className="info">50 items</div>
             </div>
-            <div className="categorie-title">Chaises</div>
+            <div className="categorie-title">Chairs</div>
           </div>
           <div className="categorie-item">
             <div className="categorie-item-img">
               <img
                 src="./imgs/Categories/categorie-table.jpg"
-                alt="categorie 2"
+                alt="category 2"
               />
-              <div className="info">50 item</div>
+              <div className="info">50 items</div>
             </div>
             <div className="categorie-title">Tables</div>
           </div>
@@ -33,12 +33,12 @@ const Categories = () => {
             <div className="categorie-item-img">
               <img
                 src="./imgs/Categories/categorie-decoration.jpg"
-                alt="categorie 1"
+                alt="category 3"
               />
-              <div className="info">50 item</div>
+              <div className="info">50 items</div>
             </div>
 
-            <div className="categorie-title">Décoration</div>
+            <div className="categorie-title">Decoration</div>
           </div>
         </div>
       </section>
