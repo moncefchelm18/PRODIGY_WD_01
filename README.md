@@ -1,8 +1,6 @@
-# Cassioppée Deco - Landing Page
+# Cassiopée Deco - Landing Page
 
 This repository contains the code for **Cassioppée Deco**, a beautifully designed landing page for a furniture and decor store. The website features a clean and modern aesthetic, showcasing various furniture categories, products, and an inspiration section. This project was developed doing TASK01 as a part of an internship at **Prodigy Infortech**.
-
-![Cassioppée Deco Landing Page Screenshot](screenshots/screenshot.png)
 
 ## Features
 
@@ -25,25 +23,25 @@ This repository contains the code for **Cassioppée Deco**, a beautifully design
 ## Screenshots
 
 ### Home Page
-![Cassioppée Deco Landing Page](screenshots/screenshot.png)
+![Cassioppée Deco Landing Page](screenshots/home.png)
 
 ### Categories Page
-![Cassioppée Deco Categories Page](screenshots/screenshot.png)
+![Cassioppée Deco Categories Page](screenshots/categories.png)
 
 ### Product Section
-![Cassioppée Deco Product Section](screenshots/screenshot-product.png)
+![Cassioppée Deco Product Section](screenshots/products.png)
 
 ### Inspiration Section
-![Cassioppée Deco Product Section](screenshots/screenshot-product.png)
+![Cassioppée Deco Product Section](screenshots/inspiration.png)
 
 ### Contact Form
-![Cassioppée Deco Contact Form](screenshots/screenshot-contact.png)
+![Cassioppée Deco Contact Form](screenshots/contact.png)
 
 ### Footer 
-![Cassioppée Deco Contact Form](screenshots/screenshot-contact.png)
+![Cassioppée Deco Contact Form](screenshots/footer.png)
 
 ### Mobile Version 
-![Cassioppée Deco Contact Form](screenshots/screenshot-contact.png)
+![Cassioppée Deco Contact Form](screenshots/mobile.png)
 
 
 ## Installation
