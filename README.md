@@ -67,7 +67,7 @@ If you have any questions or feedback, feel free to reach out via:
 
 - **Email**: mounsif.chelgham@univ-constantine2.dz
 - **Phone**: +213 562 189 015
-- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/your-linkedin-profile/)
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/mounsif-chelgham-b94202289/)
 
 
 
