@@ -59,14 +59,14 @@ This repository contains the code for **Cassioppée Deco**, a beautifully design
 3. Open the index.html file in your browser or set up a local server (e.g., using Live Server on VSCode).
 
 ## Demo
-Check out the live version of this landing page ![here](here).
+Check out the live version of this landing page ![here](https://moncefchelm18.github.io/PRODIGY_WD_01/).
 
 ## Contact
 
 If you have any questions or feedback, feel free to reach out via:
 
 - **Email**: mounsif.chelgham@univ-constantine2.dz
-- **Phone**: +213 562189015
+- **Phone**: +213 562 189 015
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/your-linkedin-profile/)
 
 
