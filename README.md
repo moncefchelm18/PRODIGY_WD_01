@@ -59,7 +59,7 @@ This repository contains the code for **Cassioppée Deco**, a beautifully design
 3. Open the index.html file in your browser or set up a local server (e.g., using Live Server on VSCode).
 
 ## Demo
-Check out the live version of this landing page ![here](https://moncefchelm18.github.io/PRODIGY_WD_01/).
+Check out the live version of this landing page [here](https://moncefchelm18.github.io/PRODIGY_WD_01/).
 
 ## Contact
 
