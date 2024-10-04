@@ -107,7 +107,7 @@ const Header = () => {
     <>
       <header className="header">
         <div className="logo">
-          <img src="/imgs/logo-removebg-preview.png" alt="logo" />
+          <img src="./imgs/logo-removebg-preview.png" alt="logo" />
         </div>
         <nav className="nav">
           <div>
